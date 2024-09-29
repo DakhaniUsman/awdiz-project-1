@@ -3,6 +3,97 @@
   #main-body {
     display: none;
   }
+
+  #mobile-navbar{
+    display: block;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:699px) {
+    #navbar{
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:799px){
+
+    .top-navbar-left{
+        width: 55%;
+        border: 1px solid black;
+    }
+
+    .top-navbar-left-2{
+        width: 58%;
+    }
+
+    .search-bar-1{
+        width: 10%;
+    }
+
+    .search-bar-2{
+        width: 30%;
+    }
+
+    .search-bar-3{
+        width: 60%;
+    }
+
+    .search-bar-4{
+        display: none;
+    }
+
+    .top-navbar-right{
+        width: 42%;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:999px){
+
+    .top-navbar-left{
+        width: 60%;
+        /* border: 1px solid black; */
+    }
+
+    .top-navbar-left-2{
+        width: 60%;
+    }
+
+    .search-bar-1{
+        width: 10%;
+    }
+
+    .search-bar-2{
+        width: 40%;
+    }
+
+    .search-bar-3{
+        width: 40%;
+    }
+
+    .search-bar-4{
+        display: none;
+    }
+
+    .top-navbar-right{
+        width: 35%;
+    }
+
+}
+
+@media screen and (min-width:1000px) and (max-width:1440px){
+
+    .top-navbar-left{
+        width: 62%;
+    }
+
+    .top-navbar-left-2{
+        width: 70%;
+    }
+
+    .top-navbar-right{
+        width: 35%;
+    }
+
 }
 
 @media screen and (max-width : 699px){
