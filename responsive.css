@@ -1,21 +1,83 @@
 
 @media screen and (max-width: 1920px) {
-  #main-body {
-    display: none;
-  }
 
   #mobile-navbar{
     display: block;
   }
 }
 
-@media screen and (min-width:300px) and (max-width:699px) {
+@media screen and (min-width:300px) and (max-width:499px) {
     #navbar{
         display: none;
+    }
+    
+    .mobile-navbar-1-right{
+        width: 60%;
+    }
+
+    .mobile-navbar-icon-container{
+        width: 70%;
+    }
+
+    .heading{
+        font-size: 10px;
+    }
+
+    .filter-left{
+        width: 35%;
+    }
+
+    .filter{
+        width: 100%;
+    }
+
+    .filter-right{
+        width: 60%;
+    }
+
+    .sort{
+        width: 50%;
+    }
+    .map{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:699px) {
+    #navbar{
+        display: none;
+    }
+    
+    .mobile-navbar-1-right{
+        width: 50%;
+    }
+
+    .mobile-navbar-icon-container{
+        width: 60%;
+    }
+
+    .heading{
+        font-size: 12px;
+    }
+
+    .filter-left{
+        width: 40%;
+    }
+
+    .filter{
+        width: 60%;
+    }
+
+    .filter-right{
+        width: 50%;
     }
 }
 
 @media screen and (min-width:700px) and (max-width:799px){
+
+    #mobile-navbar{
+        display: none;
+    }
 
     .top-navbar-left{
         width: 55%;
@@ -45,9 +107,32 @@
     .top-navbar-right{
         width: 42%;
     }
+
+    .heading{
+        font-size: 16px;
+    }
+
+    .amenities-container{
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .filter-left{
+        width: 40%;
+    }
+
+    .filter-right{
+        width: 50%;
+    }
+
+
 }
 
 @media screen and (min-width:800px) and (max-width:999px){
+
+    #mobile-navbar{
+        display: none;
+    }
 
     .top-navbar-left{
         width: 60%;
@@ -78,10 +163,26 @@
         width: 35%;
     }
 
+    .amenities-container{
+        font-size: 14px;
+    }
+
+    .filter-left{
+        width: 40%;
+    }
+
+    .filter-right{
+        width: 40%;
+    }
+
 }
 
 @media screen and (min-width:1000px) and (max-width:1440px){
 
+
+    #mobile-navbar{
+        display: none;
+    }
     .top-navbar-left{
         width: 62%;
     }
@@ -94,6 +195,43 @@
         width: 35%;
     }
 
+    .amenities-container{
+        gap: 30px;
+    }
+
+    .filter-left{
+        width: 30%;
+    }
+
+    .filter-right{
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 1441px){
+    #mobile-navbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 399px){
+    .width-399{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width : 499px){
+    .width-499{
+        display: none;
+    }
+}
+
+@media screen and (max-width : 599px){
+    .width-599{
+        display: none;
+    }
 }
 
 @media screen and (max-width : 699px){
